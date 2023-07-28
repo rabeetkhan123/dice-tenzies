@@ -1,0 +1,66 @@
+body {
+    background: #89771c;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+    background-color: white;
+    height: 90vh;
+    width: 90vw;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 5vh;
+}
+
+.main>h2 {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.main>p {
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.die {
+    background-color: #e1e1e1;
+    box-shadow: 0px 2px 2px 0px #00000026;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    margin: 10px 9px;
+    font-size: 25px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.dieContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 10px;
+}
+
+.rollBtn {
+    margin: 0 auto;
+    padding: 4px 2px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: #89771c;
+    width: 20vw;
+    margin-top: 4vh;
+}
+
+.finishBtn {
+    width: 50vw;
+    font-size: 20px;
+    background-color: green;
+}
+
+.newGameBtn {
+    width: 50vw;
+    font-size: 17px;
+    padding: 10px 0;
+}
